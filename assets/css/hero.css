@@ -1,0 +1,21 @@
+.banner-carousel .owl-nav button {
+  background-color: transparent;
+  position: absolute;
+  width: 40px;
+  top: calc(50% - 20px);
+  left: var(--spacing-6);
+}
+
+.banner-carousel .owl-nav button.owl-next {
+  left: auto;
+  right: var(--spacing-6);
+  transform: rotate(180deg);
+}
+
+@media (min-width: 1024px) {
+  .banner-carousel .owl-nav button {
+    width: 56px;
+    top: calc(50% - 28px);
+    left: var(--spacing-7);
+  }
+}
