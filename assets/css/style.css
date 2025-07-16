@@ -473,6 +473,10 @@ footer h3 {
 }
 
 @media (min-width: 1024px) {
+  main {
+    margin-top: 125px;
+  }
+
   .mob-nav {
     display: none;
   }
