@@ -161,6 +161,24 @@
   text-align: center;
 }
 
+.product-listing .card-img img {
+  width: 100%;
+}
+
+.product-listing .cards {
+  padding: var(--space-4) var(--space-3);
+}
+
+.product-listing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+}
+
+.filter-wrpr {
+  margin-bottom: var(--space-4);
+}
+
 @media (min-width: 1024px) {
   .cards.category-card {
     flex: 1 1 calc(25% - 16px);
@@ -218,5 +236,9 @@
     text-align: center;
     width: 190px;
     margin: 0 auto;
+  }
+
+  .product-listing {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
