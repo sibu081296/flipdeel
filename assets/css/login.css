@@ -223,6 +223,14 @@
   cursor: pointer;
 }
 
+.forgot-password {
+  color: var(--primary-color);
+  display: block;
+  margin-top: var(--space-4);
+  text-align: right;
+  cursor: pointer;
+}
+
 .close-btn {
   position: absolute;
   top: 15px;
